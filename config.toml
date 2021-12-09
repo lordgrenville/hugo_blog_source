@@ -1,0 +1,99 @@
+baseURL = 'http://lordgrenville.github.io/'
+languageCode = 'en-za'
+title = 'Frivolous Musings'
+theme = "tufte"
+
+# Site wide kill switch for Latex support
+math = true
+# (If math is enabled) 
+## if "katex" is set to true katex will be used to render LaTex, if not MathJax will be used instead
+katex = true
+
+[params]
+  # Subtitle of the website
+  subtitle = "Some thoughts on politics/lit/tech/life itself "
+  # Show the "Powered by Hugo-Tufte and Hugo." 
+  showPoweredBy = false
+  # Site wide kill switch
+  hidedate = false
+  # Uncomment for dark code blocks
+  # codeBlocksDark = true
+
+  # Common social website links, please comment the unused ones.
+  ## (if your favorite one is not in the list, please head to the footer menu below and add an entry)
+  ### Please note that some of the value below are only provided as an exemple, perhaps the computed isn't valid
+  github = "lordgrenville"
+  # gitlab = "slashformotion"
+  twitter = "oshkoshbgoshjos"
+  # patreon = ""
+  # youtube = "user/ChromeDevelopers" # check the end of your youtube url https://www.youtube.com/<copy_this>
+  # medium = "slashformotion"
+  reddit = "yehoshuf"
+  stackoverflow = "6220759/josh-friedlander"
+  # instagram = "google"
+  # mastodon = "instance.url/@username"
+  # orcid = "0000-0003-0634-3275"
+  # google_scholar = "jm5QaHkAAAAJ"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Home"
+  pre = "<i class='fas fa-home la-lg'></i>"
+  weight = -110 
+  identifier = "home"
+  url = "/"
+# [[menu.nav]]
+#   name = "About"
+#   pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+#   weight = -80 
+#   identifier = "about"
+#   url = "/about"
+[[menu.nav]]
+  name = "Subscribe"
+  pre = "<i class='fab fa-rss fa-lg'></i> "
+  weight = -70 
+  identifier = "feed"
+  url = "/posts/index.xml"
+[[menu.nav]]
+  name = "All posts"
+  pre = "<i class='fas fa-book fa-lg'></i> "
+  weight = -100 
+  identifier = "posts"
+  url = "/posts"
+[[menu.nav]]
+  name = "Source"
+  pre = "<i class='fab fa-github fa-lg'></i> "
+  weight = -70 
+  identifier = "github"
+  url = "https://github.com/lordgrenville/lordgrenville.github.io"
+
+# -----------------------------------------------------------------------
+# FOOTER MENU
+# If you need to add custom links to you footer: put them here. Be aware that this theme is using fontawesome. 
+# Please head to https://fontawesome.com/v4.7/icons/ to pick icons
+# -----------------------------------------------------------------------
+
+# [[menu.footer]]
+#   name = "Custom footer link"
+#   pre = "<i class='fab fa-google fa-lg'></i> "
+#   weight = -90 
+#   identifier = "custom_link"
+#   url = "https://google.com"
+
+
+# Don't change the settings below
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # make the shortcodes work
+  [markup.highlight]
+      noClasses = false
+
+pygmentsUseClasses = true
+canonifyurls = true
