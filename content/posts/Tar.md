@@ -28,6 +28,5 @@ How does one remember those ridiculous single letter commands? My preferred solu
     else
       echo "'1' is not a valid file"
     fi
----
----
+```
 (Appended, naturally, to `.bashrc`.)
