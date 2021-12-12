@@ -10,6 +10,6 @@ So I have a control: one day a week, I forswear all electronic devices, and when
 
 - Inventing the perfect response for situations where I didn't have one
 - Getting angry about the news
-- Imagining situations where someone tries to beat me up, but then it turns out that I have superpowers and I beat _them_ up (is this nornal for an adult??? What does this say about me!?)
+- Imagining situations where someone tries to beat me up, but then it turns out that I have superpowers and I beat _them_ up (is this normal for an adult??? What does this say about me!?)
 
 Tentative conclusion: I'm not missing out on much. Although it's possible that the "boredom premium" is cumulative, and only after building up a long period of boredom does true creativity flourish. By cycling between long periods of hyperstimulation and brief pauses, I'm just letting my overstimulated mind lapse into white noise on its off days. ¯\_(ツ)_/¯
