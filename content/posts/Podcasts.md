@@ -26,7 +26,7 @@ expired.
 
 I emailed Bloomberg about this, but I think they are sunsetting this
 podcast, and their support ticket confirmation email never showed up. In
-the meatime I wanted to just grab those episodes, so I did it old
+the meantime I wanted to just grab those episodes, so I did it old
 school.
 
     import requests
@@ -63,5 +63,5 @@ And then I just grabbed the ones I wanted with `wget`:
 
     etc...
 
-Sent them to my phone with bluetooth, and added the `bluetooth` folder
+Sent them to my phone with Bluetooth, and added the `bluetooth` folder
 as a virtual podcast. And there you go, podcasts the old fashioned way!
