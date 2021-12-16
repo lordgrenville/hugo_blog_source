@@ -5,7 +5,13 @@ h1 {
 h3 {
     font-style: normal;
     font-size: 1.4rem;
-    line-height: 0rem
+    line-height: 0rem;
+}
+
+@media (max-width: 479px) {
+    h3 {
+        line-height: normal;
+    }
 }
 
 h2 {
