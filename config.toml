@@ -8,6 +8,7 @@ math = true
 # (If math is enabled) 
 ## if "katex" is set to true katex will be used to render LaTex, if not MathJax will be used instead
 katex = true
+googleAnalytics = "G-LNY0QLEVFD"
 
 [params]
   # Subtitle of the website
