@@ -4,7 +4,7 @@ date: 2018-11-01
 draft: false
 ---
 
-I've been working at home this week, and leaving the windows open, as I like doing in all but the hottest weather. But I've been bothered by these guys on the right. {{% marginnote %}}![Aedes Albopictus (public domain image via the Centre for Disease Control)](/img/Aedes_Albopictus.jpg){{% /marginnote%}} 
+I've been working at home this week, and leaving the windows open, as I like doing in all but the hottest weather. But I've been bothered by these guys on the right. {{% marginnote %}}![Aedes Albopictus (public domain image via the Centre for Disease Control)](/img/Aedes_Albopictus.jpg){{% /marginnote%}}
 
 Googling mosquitoes with zebra-striped abdomens reveals that this is a [tiger mosquito](https://en.wikipedia.org/wiki/Aedes_albopictus), an aggressive invader from SE Asia. Ranked as one of the hundred worst invasive species, it originally spread on packing crates and has penetrated most of the world, first being seen in Israel in 2003. And besides for worse things, such as being disease vectors, they are unusually awful pests: they hunt by day, unlike regular mozzies, and can easily adapt to living in almost any human habitat, not needing a humid bog. I can testify to their peculiarly aggressive nature, not minding being brushed away or swatted at, persisting until finding blood.
 
