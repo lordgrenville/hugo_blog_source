@@ -1,0 +1,37 @@
+#+TITLE: Insight Without Prediction?
+#+DATE: 2022-03-06
+#+DRAFT: true
+#+hugo_base_dir: ~/Documents/dev/blog/lordgrenville_hugo/
+
+In 1991, the former head of the CIA wrote in /Foreign Affairs/
+#+begin_quote
+One of the cardinal weaknesses of American intelligence analysis has been getting large bureaucracies to go out on a limb, that is, to stake their reputations on forecasting.  Neither I nor the CIA's analysts reached the conclusion that eventually something had to give: that there would be a political and economic crisis...We should not gloss over the enormity of this failure to forecast the magnitude of the Soviet crisis.
+#+end_quote
+This well-known failure, along with others such as Iraq's missing WMDs, opens to question the value of the intelligence community to begin with. But rather than be cynical (however justified), I'd like to consider the question of how to measure the quality of spies.
+
+This is essentially a philosophy of science problem (and I'm sure there are enormous amounts of literature on it I haven't read). To recap, Popper in [[https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery][The Logic of Scientific Discovery]] used /falsification/ as the criteria for deciding between scientific theories. This works excellently in natural, experimental sciences; and can be made to work in observational ones as well (just find natural experiments and retrodict). Popper used this technique as a cudgel against contemporaneous fads such as Freudian analysis and dialectical materialism. However, this method clearly has limits. In the humanities, we are content to let scholars come up with theories that have no predictive value, and don't ask them to prove (at least not in a standardised, Baconian sense) that their reading of Wordsworth is more correct than someone else's.
+
+Social sciences, which is basically what intelligence work falls under, seems divided. At one end you have economists with a highly quantitative, prediction-based culture; a lot of political science, sociology and experimental psychology works the same way. At the other you have anthropologists and historians who make no pretense to being Popperian, and use their own internal community rules for assessing if one scholar's work is more correct or useful than another's. (The formal terms for these two approaches are /positivist/ vs /interpretivist/, or quantitative vs qualitative methods.)
+
+(Another box we could put in intelligence researchers in is that of [[https://en.wikipedia.org/wiki/Area_Studies][Area Studies]], a vague and interdisciplinary world that seems fully on the interpretivist side.)
+
+I think both of these methods have drawbacks. In the first instance, the pressure felt by many researchers in inherently hard-to-quantify domains to bolster their findings with data has led to a lot of junk papers based on shoddy statistics and [[https://en.wikipedia.org/wiki/Psychology#WEIRD_bias][questionable assumptions]], as current talk of a "reproducibility crisis" has underlined.
+
+The problem with the second is that, while a community of scholars is perfectly capable of assessing one another, it is often blinded by its own biases. An anthropologist coming back from Papua New Guinea in 1900 and reporting that the natives were primitive and barbaric would sound perfectly accurate to their peers; another one reporting back in 1972 that they are far happier and more peaceful than Westerners might be equally well received - each time, the community has judged the material based on its own (evolving) biases.
+
+So let's take the extreme case where our Kremlinologists and Iraqologists are wrong 100% of the time. (Well, that would make them perfect antipredictors, so rather they are no better than random.) Is there any point in keeping them around? And if so, how do we measure their performance?
+
+To me, the answer to the first question is obvious - you still need experts on countries you interact with just to answer simple questions such as what is making news headlines over there, what not to feed their diplomats when they visit, and how many tanks they are massing on the border. /Providing data is separate from prediction, and valuable./ This seems fairly obvious to me, yet as I write this I find two posts in my RSS feed disagreeing. Here is [[https://marginalrevolution.com/marginalrevolution/2022/05/how-did-the-ir-community-get-russia-ukraine-so-wrong.html][Tyler Cowen]] claiming that the failure to predict Russia's invasion of Ukraine reflects badly on IR scholars, and even cites my USSR example.
+#+begin_quote
+Not so many scholars (of various kinds) predicted the collapse of the USSR, and I think it is absolutely correct to conclude they did not understand the late 1980s USSR very well.
+#+end_quote
+(I'm not sure I agree!) And here is [[https://statmodeling.stat.columbia.edu/2022/05/29/b-s-pseudo-expertise-comes-from-many-directions/][Andrew Gelman]] more or less conceding to Richard Hanania that the invasions of Iraq and Afghanistan are an indictment of academic expertise. The relevant example here, again, is a failure of prediction (that WMDs would be found in Iraq).
+
+Maybe relying on superforecasters instead of spooks for all predictive purposes would be an improvement? But how do we assess the quality of the data? I don't have answers to these questions, and intelligence budgets, highly opaque in most countries, keep on rising. Maybe we should set McKinsey on it.
+---------
+(I don't agree, but not for Gelman's reasons: job of experts is not to make predictions or decisions! Leaders need to make decisions. They should be informed by expertise, and if the experts say eg "we are 80% sure Iraq has WMD" and that turns out to be an unjustified decision (I have no opinion on whether it was) then that /is/ fault of experts, but usually the decision does not hinge on a factual question. (but does it? Maybe in this example yes???))
+
+This essay started when considering an applied area of social science, that of foreign policy research. If my in-house Russia experts can't tell me anything about future, are they worth anything? (Hmm, this seems like a dumb question, they can still inform me on what to say in negotiations with Russian ambassador. But I guess my question is, is there a way to measure if we are getting good return on investment? Should we fire half of them, or hire twice as many, etc)
+
+
+not in house style?? half-baked??
