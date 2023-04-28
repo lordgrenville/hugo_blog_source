@@ -16,9 +16,15 @@ The judgement of literary or artistic value is the subject of the subfield of ph
 2)  **Is capitalism more conducive than communism to human nature?**
 
 (Firstly, this is an old debate, between Hobbes and Rousseau.)
-{{% marginnote %}}![Nicolas Cage](https://pyxis.nymag.com/v1/imgs/e98/60b/54adc00b2464e4d121017900c37924b19a-06-nicholas-cage.rsquare.w190.jpg){{% /marginnote%}} 
+{{< figure
+  src="https://pyxis.nymag.com/v1/imgs/e98/60b/54adc00b2464e4d121017900c37924b19a-06-nicholas-cage.rsquare.w190.jpg"
+  type="margin"
+  label="cage"
+  title="Nicolas Cage"
+  caption="Keep this guy out of your commune"
+  alt="Nicolas Cage"
+ >}}
 I don't believe this is true, but I do believe that communism _doesn't scale_ because as the group grows, the likelihood of bad actors increases, and bad actors destroy the trust needed for a communist society to thrive.
-{{% marginnote %}}Keep this guy out of your commune{{% /marginnote%}} 
 For this reason I think that it tends to work at small scale, like the _kibbutz_ movement or student dorm co-ops. Say I live on a _kibbutz_ and am a software engineer at Google. I put my salary into the pot, so does my neighbour the poet. At the end of year one we have a big surplus. In year two one of the members is diagnosed with a medical condition requiring expensive treatment, but luckily the surplus covers it. In year three we have grown, and by the end of the year there is little surplus left, despite the sick member having stabilised and not requiring new treatments. Upon inspection we discover that one new member, Bob, fraudulently claimed for some expenses related to renovations, spending the money on cars he sold on the side. We kick him out, but I still feel resentful. While my colleagues at Google are living it up, I am leading a modest and idealistic lifestyle, just so someone can steal or mismanage the money?!
 
 This is a miniature; but we can well imagine that a Ukrainian farmer might not feel well-disposed towards the Workers' Republic after [being starved](https://en.wikipedia.org/wiki/Holodomor) (historians disagree over whether it was intentional or if Stalin just didn't care, but there's not much difference for our purposes.) The Russian Empire was a vast mix of ethnicities, languages and religions, who never had much of a shared basis for trust; that is the worst possible situation in which to build a communist society.
