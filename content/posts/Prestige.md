@@ -17,7 +17,7 @@ Scott touches on the question of value with the following _gedankenexperiment_: 
 
 I personally would go with the last one, and am reminded of Walter Benjamin's idea of "aura" in relation to mechanical copies of artworks. Images like the _Avignon Pietà_ are instantly viewable anywhere, but the original retains a value derived from its physical position and its interaction with generations of devout viewers. Today with AI models we can conjure infinite new works in the style of Picasso or Goya, and if the originals have value it is probably in the way they are enmeshed in this social context.
 
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Enguerrand_Quarton%2C_La_Piet%C3%A0_de_Villeneuve-l%C3%A8s-Avignon_%28c._1455%29.jpg" width="100px" >}}
+{{< image src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Enguerrand_Quarton%2C_La_Piet%C3%A0_de_Villeneuve-l%C3%A8s-Avignon_%28c._1455%29.jpg" width="100px" >}}
 
 When it comes to the Marvel Cinematic Universe vs Welsh myth, or Bergman, I am split between two views, which I think both have some validity. The first is that a good story is a good story, and genre snobbery is just class signalling. Art is about entertainment, and modern mass cinema has distilled its essence. But in modern society success is mainly predicated on IQ, or the perception of it, and so people try find means to signal intellectual sophistication, by sitting through movies that are objectively less fun.
 
@@ -25,15 +25,15 @@ The other argument is that there are more sophisticated kinds of aesthetic pleas
 
 (Honestly, I consider pretty much all entertainment a waste of time, and think that if there is any value at all it is in something which describes the world in a way you hadn't thought of that seems true. I remember as a high-schooler being very moved by
 
-> ...a gusty shower wraps  
-> The grimy scraps  
-> Of withered leaves about your feet  
-> And newspapers from vacant lots;  
-> The showers beat  
-> On broken blinds and chimney-pots,  
+> ...a gusty shower wraps<br>
+> The grimy scraps<br>
+> Of withered leaves about your feet<br>
+> And newspapers from vacant lots;<br>
+> The showers beat<br>
+> On broken blinds and chimney-pots,<br>
 
 or by fiction about human relationships that pointed out things about people that I hadn't realised and that helped me be less obtuse in social situations.)
 
-So, I guess I come down on the side of 50% pretentiousness, 50% real value. And it struck me that the program I am using to write this, [GNU Emacs](https://en.wikipedia.org/wiki/GNU_Emacs), is similar. I have to admit that I picked it up out of a desire to fake being a very talented developer. What the army calls "wasaḥ", the appearance of seniority, like the private beating his beret to make it seem worn, or the student bending the spines of his new books. I wanted a 1337 h4x0r setup, the no-mouse, all command-line, lines of output scrolling nonstop. And for the most part this was a silly but harmless pastime. But I think I also did get something out of it. It is true that one could argue that Emacs has been replaced by IntelliJ, many of whose features are hard if not impossible to replicate in Emacs, and as a general purpose editor by VSCode, and that the nostalgia for it is just the prejudice of older developers who remember when IDEs were much worse. But I think that using Emacs has also made me a better developer. It taught me to be better at reading documentation and asking for help in a way that would get an answer; it gave me some practice writing Lisp code; it made me learn the fundamentals of some of my tools when trying to integrate them with Emacs because they don't "just work" out of the box. So 50% pretentiousness, 50% real value.
+So, I guess I come down on the side of 50% pretentiousness, 50% real value. And it struck me that the program I am using to write this, [GNU Emacs](https://en.wikipedia.org/wiki/GNU_Emacs), is similar. I have to admit that I picked it up out of a desire to fake being a very talented developer. What the army calls "wasah", the appearance of seniority, like the private beating his beret to make it seem worn, or the student bending the spines of his new books. I wanted a 1337 h4x0r setup, the no-mouse, all command-line, lines of output scrolling nonstop. And for the most part this was a silly but harmless pastime. But I think I also did get something out of it. It is true that one could argue that Emacs has been replaced by IntelliJ, many of whose features are hard if not impossible to replicate in Emacs, and as a general purpose editor by VSCode, and that the nostalgia for it is just the prejudice of older developers who remember when IDEs were much worse. But I think that using Emacs has also made me a better developer. It taught me to be better at reading documentation and asking for help in a way that would get an answer; it gave me some practice writing Lisp code; it made me learn the fundamentals of some of my tools when trying to integrate them with Emacs because they don't "just work" out of the box. So 50% pretentiousness, 50% real value.
 
 And would I ever have switched into tech if society hadn't decided that it had higher status than it did when I as a high schooler chose not to take any coding classes? Being totally honest - probably not.
