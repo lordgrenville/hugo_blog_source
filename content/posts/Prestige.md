@@ -17,7 +17,16 @@ Scott touches on the question of value with the following _gedankenexperiment_: 
 
 I personally would go with the last one, and am reminded of Walter Benjamin's idea of "aura" in relation to mechanical copies of artworks. Images like the _Avignon Pietà_ are instantly viewable anywhere, but the original retains a value derived from its physical position and its interaction with generations of devout viewers. Today with AI models we can conjure infinite new works in the style of Picasso or Goya, and if the originals have value it is probably in the way they are enmeshed in this social context.
 
-{{< image src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Enguerrand_Quarton%2C_La_Piet%C3%A0_de_Villeneuve-l%C3%A8s-Avignon_%28c._1455%29.jpg" width="100px" >}}
+{{< figure
+  src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Enguerrand_Quarton%2C_La_Piet%C3%A0_de_Villeneuve-l%C3%A8s-Avignon_%28c._1455%29.jpg"
+  class="class param"
+  title="Pietà of Villeneuve-lès-Avignon"
+  caption="Oil on wood, 163cm x 219cm"
+  label="mn-export-import"
+  attr="Enguerrand Quarton"
+  attrlink="https://en.wikipedia.org/wiki/Enguerrand_Quarton"
+  alt="Avignon Pieta"
+ >}}
 
 When it comes to the Marvel Cinematic Universe vs Welsh myth, or Bergman, I am split between two views, which I think both have some validity. The first is that a good story is a good story, and genre snobbery is just class signalling. Art is about entertainment, and modern mass cinema has distilled its essence. But in modern society success is mainly predicated on IQ, or the perception of it, and so people try find means to signal intellectual sophistication, by sitting through movies that are objectively less fun.
 
