@@ -7,7 +7,7 @@ draft = false
 
 In _yeshiva_ study one of the principles that is emphasised is חזרה, revision.
 
-> One who reviews his studies one hundred times is not comparable to one who reviews his studies one hundred and one times ([Chagiga 9b](https://www.sefaria.org.il/Chagigah.9b.11))
+> One who reviews his studies one hundred times is not comparable to one who reviews his studies one hundred and one times ([Chagiga 9b](https://www.sefaria.org.il/Chagigah.9b.10))
 
 But revision is hard. We are naturally more interested in novelty, and time is limited. It is more tempting to learn new topics, and after all
 
