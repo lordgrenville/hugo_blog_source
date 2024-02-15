@@ -1,7 +1,7 @@
 #+TITLE: Insight Without Prediction?
 #+DATE: 2022-03-06
 #+DRAFT: true
-#+hugo_base_dir: ~/Documents/dev/blog/lordgrenville_hugo/
+#+hugo_base_dir: /Users/joshuafriedlander/Documents/pers/hugo_blog_source
 
 In 1991, the former head of the CIA wrote in /Foreign Affairs/
 #+begin_quote
