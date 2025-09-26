@@ -1,13 +1,17 @@
 <head>
 <script data-goatcounter="https://lordgrenville.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
-<title>{{ .Site.Title }} - {{ .Title  }}</title>
+<title>{{ .Title }} - {{ .Site.Title  }}</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description"
     content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . }}{{ else }}{{ .Site.Params.description }}{{end }}{{ end }} ">
 <link rel="canonical" href="{{ .Permalink }}" />
-<!-- Standard favicon -->
-<link rel="icon" type="image/x-icon" href="{{"favicon/favicon.ico" | relURL}}">
+{{ if .Site.Params.favicon }}
+<link rel="icon" href="{{ .Site.Params.favicon | absURL }}" />
+{{ end }}
+{{ if .Site.Params.touchicon }}
+<link rel="apple-touch-icon" href="{{ .Site.Params.touchicon | absURL }}" />
+{{ end }}
   {{ partial "header.includes.html" . }}
 </head>
