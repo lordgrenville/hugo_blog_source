@@ -13,13 +13,9 @@ I often switch between keyboard layouts (between English and Hebrew), and in Heb
 
 It seemed like there should be an easy way to get this info, but a quick search found [this answer](https://stackoverflow.com/a/21599127/6220759) which seemed like overkill to me:
 
-<figure class="fullwidth">
-<pre class="chroma">
-<code class="language-elisp" data-lang="elisp">
+```elisp
 (shell-command-to-string "defaults read ~/Library/Preferences/com.apple.HIToolbox.plist AppleSelectedInputSources | grep \"KeyboardLayout Name\" ")
-</code>
-</pre>
-</figure>
+```
 
 I spent a bit of time trying to find something simpler, and figuring out that I needed to escape the quotes, but settled on that. So I have this function:
 
