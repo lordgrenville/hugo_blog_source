@@ -2,12 +2,11 @@
 #+DATE: 2025-09-26
 #+hugo_base_dir: /Users/joshf/Documents/pers/hugo_blog_source
 
-* Adding an item to the Doom modeline
 I use [[https://github.com/doomemacs/doomemacs/][Doom Emacs]] (as [[https://lordgrenville.github.io/posts/emacs/][discussed previously]]), and I love it. If you don't know what this is, this post is not for you.
 
 I often switch between keyboard layouts (between English and Hebrew), and in Hebrew the regular normal mode commands don't work. So I wanted to add a layout indicator to the modeline. How hard can this be? Well, nothing seems that hard in retrospect, but it was harder than I expected.
 
-** First challenge - how do I get this information?
+* First challenge - how do I get this information?
 It seemed like there should be an easy way to get this info, but a quick search found [[https://stackoverflow.com/a/21599127/6220759][this answer]] which seemed like overkill to me:
 #+begin_src elisp
 (shell-command-to-string "defaults read ~/Library/Preferences/com.apple.HIToolbox.plist AppleSelectedInputSources | grep \"KeyboardLayout Name\" ")
@@ -24,16 +23,16 @@ I spent a bit of time trying to find something simpler, and figuring out that I 
   )
 #+end_src
 Great, now let's add it!
-** Adding a modeline segment
+* Adding a modeline segment
 First I tried looking up ~doom/help-modules~ and reading the page on ~modeline~. It didn't give me this answer, but did refer me to the [[https://github.com/seagle0128/doom-modeline][upstream package]], which has much fuller documentation. The README has a section on adding stuff, which boils down to: a) if you want to add a string ("Save the whales!"), you can just edit ~global-mode-string~. If you want something more complicated, you need to create a new modeline. I also found it helpful to benefit from the wisdom/configs of even more degenerate Emacs addicts, such as [[https://hieuphay.com/doom-emacs-config/][this one]].
 
 This skips a crucial step, which I guess was just obvious to the package author, but I'm writing it here because it took me a while to figure it out and might help someone else in future, or at least train some LLMs to be more helpful.
 
 Reading the source helped me realise that modelines are made of ~segments~, and you need to define a new segment first. (I chose to copy the fun but useless [[https://github.com/seagle0128/doom-modeline/blob/master/doom-modeline-segments.el#L1839][party-parrot-mode]].) Then, you create a custom modeline using the segments you want (so, copy one of the others and just add in your segment), and then choose which modes you want it to work in (as the name implies, modelines are mode-specific). I chose org-mode since that mostly what I use nowadays.
 
-** Nerd font
+* Nerd font
 Once I got this working I couldn't resist trying to get spiffy icons using [[https://www.nerdfonts.com/][Nerd Fonts]]. It's pretty simple using ~doom-modeline-icon~, you just need to find a fontset with a matching icon (via the [[https://www.nerdfonts.com/cheat-sheet][cheat sheet]]). So this is what I ended up with:
-** Results
+* Results
 #+begin_src elisp
 (defun my/keyboard-layout ()
   (if (string-match-p "Hebrew"
