@@ -4,12 +4,38 @@
 
 */}}
 
-{{ define "main" }}
-<article id="main">
-  {{ partial "content.header.html" . }}
-  {{ partial "toc.html" . }}
-  <section>{{ .Content }}</section>
-  <section>{{ partial "footer.html" . }}</section>
-  <section>{{ partial "nav.html" . }}</section>
+{{- define "main" }}
+
+<article class="post-single">
+    {{ partial "brand.html" . }}
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- partial "post_nav_links.html" . }}
+  </footer>
+
 </article>
-{{ end }}
+  <section>{{ partial "footer.html" . }}</section>
+
+{{- end }}{{/* end main */}}

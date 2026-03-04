@@ -24,6 +24,7 @@ googleAnalytics = "G-LNY0QLEVFD"
   ## (if your favorite one is not in the list, please head to the footer menu below and add an entry)
   ### Please note that some of the value below are only provided as an exemple, perhaps the computed isn't valid
   github = "lordgrenville"
+  linkedin = "josh-friedlander-312b926b"
   # gitlab = "slashformotion"
   twitter = "oshkoshbgoshjos"
   # patreon = ""
@@ -49,12 +50,12 @@ googleAnalytics = "G-LNY0QLEVFD"
   weight = -110 
   identifier = "home"
   url = "/"
-# [[menu.nav]]
-#   name = "About"
-#   pre = "<i class='fas fa-info-circle  fa-lg'></i> "
-#   weight = -80 
-#   identifier = "about"
-#   url = "/about"
+[[menu.nav]]
+  name = "About"
+  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  weight = -60 
+  identifier = "about"
+  url = "/about"
 [[menu.nav]]
   name = "Subscribe"
   pre = "<i class='fab fa-rss fa-lg'></i> "

@@ -1,138 +1,15 @@
 <footer class="page-footer">
-<hr />
-
-    <div class="previous-post" style="display:inline-block;">
-      {{ if .Prev }}
-      <a class="link-reverse" href="{{ .Prev.Permalink }}?ref=footer">« {{ .Prev.Title | truncate 50 "..."}}</a>
-      {{ end }}
-    </div>
-
-    <div class="next-post", style="display:inline-block;float:right;">
-      {{ if .Next }}
-      <a class="link-reverse" href="{{ .Next.Permalink }}?ref=footer">{{ .Next.Title | truncate 50 "..." }} »</a>
-      {{ end }}
-    </div>
-
-		<ul class="page-footer-menu">
-
-      {{/* SOCIALS */}}
-      {{ if isset .Site.Params "github" }}
-      <li><a href="https://github.com/{{.Site.Params.github}}"><i class='fab fa-github fa-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "stackoverflow" }}
-      <li><a href="https://stackoverflow.com/users/{{.Site.Params.stackoverflow}}?tab=profile"><i class='fab fa-stack-overflow la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "reddit" }}
-      <li><a href="https://www.reddit.com/user/{{.Site.Params.reddit}}"><i class='fab fa-reddit la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "twitter" }}
-      <li><a href="https://twitter.com/{{.Site.Params.twitter}}"><i class='fab fa-twitter fa-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "gitlab" }}
-      <li><a href="https://gitlab.com/{{.Site.Params.gitlab}}"><i class='fab fa-gitlab fa-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "patreon" }}
-      <li><a href="https://www.patreon.com/{{.Site.Params.patreon}}"><i class='fab fa-patreon la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "youtube" }}
-      <li><a href="https://www.youtube.com/{{.Site.Params.youtube}}"><i class='fab fa-youtube la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "medium" }}
-      <li><a href="https://medium.com/{{.Site.Params.medium}}"><i class='fab fa-medium la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "instagram" }}
-      <li><a href="https://www.instagram.com/{{.Site.Params.instagram}}"><i class='fab fa-instagram la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "mastodon" }}
-      <li><a href="https://{{.Site.Params.mastodon}}"><i class='fab fa-mastodon la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "orcid" }}
-      <li><a href="https://orcid.org/{{.Site.Params.orcid}}"><i class='fab fa-orcid la-lg'></i></a></li>
-      {{ end }}
-
-      {{ if isset .Site.Params "google_scholar" }}
-      <li><a href="https://scholar.google.com/citations?user={{.Site.Params.google_scholar}}"><i class='fas fa-graduation-cap la-lg'></i></a></li>
-      {{ end }}
-      {{/* END SOCIALS */}}
-      {{ range .Site.Menus.footer }}
-        <li><a href="{{.URL}}">{{.Pre }} {{ .Name }}</a></li>
-      {{ end }}
-		</ul>
-
-	<div class="copyright">
-	<p>
-        Ingredients: <a href="https://gohugo.io">Hugo</a>, <a href="https://github.com/slashformotion/hugo-tufte">Tufte theme</a>, <a href="https://orgmode.org/">org-mode</a>...
-  </p>
-</div>
-
-<div class="next-post", style="display:inline-block;float:right;">
-  {{ if .NextPage }}
-  <a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">{{ .NextPage.Title | truncate 50 "..." }} »</a>
-  {{ end }}
-</div>
-
+<hr>
 <ul class="page-footer-menu">
   {{/* SOCIALS */}}
-  {{ if isset .Site.Params "twitter" }}
-  <li><a href="https://twitter.com/{{.Site.Params.twitter}}">Twitter</a></li>
-  {{ end }}
-  
-  {{ if isset .Site.Params "linkedin" }}
-  <li><a href="https://linkedin.com/in/{{.Site.Params.linkedin}}">LinkedIn</a></li>
-  {{ end }}
-
   {{ if isset .Site.Params "github" }}
-  <li><a href="https://github.com/{{.Site.Params.github}}">GitHub</a></li>
+  <li><a href="https://github.com/{{.Site.Params.github}}"><img width="30" height="30" src="/img/fa-github.svg"></a></li>
   {{ end }}
-
-  {{ if isset .Site.Params "gitlab" }}
-  <li><a href="https://gitlab.com/{{.Site.Params.gitlab}}">GitLab</a></li>
-  {{ end }}
-
-  {{ if isset .Site.Params "patreon" }}
-  <li><a href="https://www.patreon.com/{{.Site.Params.patreon}}">Patreon</i></a></li>
-  {{ end }}
-
-  {{ if isset .Site.Params "youtube" }}
-  <li><a href="https://www.youtube.com/{{.Site.Params.youtube}}">YouTube</a></li>
-  {{ end }}
-
-  {{ if isset .Site.Params "medium" }}
-  <li><a href="https://medium.com/{{.Site.Params.medium}}">Medium</a></li>
-  {{ end }}
-
-  {{ if isset .Site.Params "reddit" }}
-  <li><a href="https://www.reddit.com/user/{{.Site.Params.reddit}}">Reddit</a></li>
-  {{ end }}
-
   {{ if isset .Site.Params "stackoverflow" }}
-  <li><a href="https://stackoverflow.com/users/{{.Site.Params.stackoverflow}}?tab=profile">StackOverflow</a></li>
+  <li><a href="https://stackoverflow.com/users/{{.Site.Params.stackoverflow}}?tab=profile"><img width="30" height="30" src="/img/fa-stackoverflow.svg"></a></li>
   {{ end }}
-
-  {{ if isset .Site.Params "instagram" }}
-  <li><a href="https://www.instagram.com/{{.Site.Params.instagram}}">Instagram</a></li>
-  {{ end }}
-
-  {{ if isset .Site.Params "mastodon" }}
-  <li><a href="https://{{.Site.Params.mastodon}}">Mastodon</a></li>
-  {{ end }}
-
-  {{ if isset .Site.Params "orcid" }}
-  <li><a href="https://orcid.org/{{.Site.Params.orcid}}">ORCID</a></li>
-  {{ end }}
-
-  {{ if isset .Site.Params "google_scholar" }}
-  <li><a href="https://scholar.google.com/citations?user={{.Site.Params.google_scholar}}">Google Scholar</a></li>
+  {{ if isset .Site.Params "linkedin" }}
+  <li><a href="https://linkedin.com/in/{{.Site.Params.linkedin}}"><img width="30" height="30" src="/img/fa-linkedin.svg"></a></li>
   {{ end }}
   {{/* END SOCIALS */}}
   {{ range .Site.Menus.footer }}
@@ -147,18 +24,11 @@
 </p>
 {{ end }}
 
-{{ if or ( isset .Site.Params "copyright" ) ( isset .Site.Params "copyrightHolder" ) }}
 <div class="copyright">
 <p>
-  {{ with .Site.Params.copyright }}
-  {{ . | safeHTML }}
-  {{ else }}
-  &copy; {{now.Format "2006"}}
-  {{ with .Site.Params.copyrightHolder }}{{ . }}{{end}}.
-  All rights reserved.
-  {{end}}
+Ingredients: <a href="https://gohugo.io">Hugo</a>, <a href="https://github.com/slashformotion/hugo-tufte">Tufte theme</a>, <a href="https://orgmode.org/">org-mode</a>...
 </p>
+<hr>
 </div>
-{{ end }}
 
 </footer>
