@@ -1,7 +1,5 @@
 ---
 hasMath: false
-_build:
-  list: never
 ---
 
 Sometimes I think thoughts.
