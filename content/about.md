@@ -1,5 +1,7 @@
 ---
+title: "About Me"
 hasMath: false
+date: 2021-02-24
 ---
 
 Sometimes I think thoughts.

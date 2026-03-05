@@ -34,36 +34,18 @@
   <iframe width="600" height="870" srcdoc="&lt;script src=&quot;https://www.goodreads.com/review/custom_widget/7226831.%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E?cover_position=left&amp;cover_size=small&amp;num_books=25&amp;order=d&amp;shelf=read&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=1&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=FFFFFF&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1639125651&amp;widget_text_color=000000&amp;widget_title_size=medium&amp;widget_width=medium&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;"></iframe>
 <h2>Posts</h2>
 
-{{ if and (.Paginator) (gt .Paginator.TotalPages 1) }}
-
-<span class="previous-page">
-{{ if .Paginator.HasPrev }}
-<a class="link-reverse" href="{{.Paginator.Prev.URL}}">«</a>
-{{ end }}
-</span>
-
-<span class="pagination-indicator">
-{{.Paginator.PageNumber}} / {{.Paginator.TotalPages}}
-</span>
-
-<span class="next-page">
-{{ if .Paginator.HasNext }}
-<a class="link-reverse" href="{{.Paginator.Next.URL}}">»</a>
-{{ end }}
-</span>
-      <div class="homepage-content">
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{.Content}}
-      </div>
-    <!-- Ranges through content/posts/*.md -->
-    {{ range .Site.RegularPages }}
-        <h3>
-            <a href="{{.Permalink}}">{{.Title}}</a>
-        </h3>
-        <subtitle>
-            {{.Date.Format "2006-01-02"}}
-        </subtitle><br>
-    {{ end }}
+<div class="homepage-content">
+<!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+{{.Content}}
+</div>
+<!-- Ranges through content/posts/*.md -->
+{{ range .Site.RegularPages }}
+    <h3>
+        <a href="{{.Permalink}}">{{.Title}}</a>
+    </h3>
+    <subtitle>
+        {{.Date.Format "2006-01-02"}}
+    </subtitle><br>
 {{ end }}
 {{ partial "footer.html" . }}
 {{ end }}
