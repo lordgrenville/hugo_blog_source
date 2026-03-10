@@ -19,6 +19,7 @@ theme = "tufte"
   ## if "katex" is set to true katex will be used to render LaTex, if not MathJax will be used instead
   katex = true
   KaTeXCDN = "//cdn.jsdelivr.net/npm"
+  KaTeXVersion = "0.16.4"
 
   # Common social website links, please comment the unused ones.
   ## (if your favorite one is not in the list, please head to the footer menu below and add an entry)
