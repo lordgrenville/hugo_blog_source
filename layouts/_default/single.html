@@ -17,6 +17,10 @@
       {{ .Description }}
     </div>
     {{- end }}
+    {{- if not .Params.hidedate -}}
+    <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+    {{- end -}}
+
   </header>
 
   {{- if .Content }}
