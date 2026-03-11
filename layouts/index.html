@@ -29,12 +29,54 @@
 <!-- {{ end }} -->
 <!-- </section> -->
 
-<p><b>Currently reading</b> (Sorry about the ugly design, it's a <a href="https://stackoverflow.com/questions/4612374/iframe-inherit-from-parent">cross-origin IFrame</a>...</p><br>
+<style>
+.reading {
+	margin-bottom: 0.1rem;
+	font-size: 2.2rem;
+}
+</style>
+<h3 class="reading">
+<b>Current reading...</b></h3>
+<br>
 <div class="iframe-wrapper">
-  <iframe width="853" height="540" srcdoc="&lt;script src=&quot;https://www.goodreads.com/review/custom_widget/7226831.%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E?cover_position=left&amp;cover_size=small&amp;num_books=25&amp;order=d&amp;shelf=read&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=1&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=FFFFFF&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1639125651&amp;widget_text_color=000000&amp;widget_title_size=medium&amp;widget_width=medium&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;" frameborder="10" allowfullscreen></iframe>
+  <!-- the srcdoc contains the Goodreads JS, and some CSS to make it match the page, HTML encoded. Here is the more readable equivalent -->
+  <!-- the CSS also hide tags and the bottom element -->
+
+<!-- import re -->
+<!-- from html import escape -->
+
+<!-- s = """ -->
+<!--   <style> -->
+<!--     div { -->
+<!--       font-family: et-book,"Noto Serif SC",Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif,"Noto Emoji"; -->
+<!--       color: #111; -->
+<!--       font-size: 1.2rem; -->
+<!--     } -->
+<!--     .gr_custom_tags_ { -->
+<!--       visibility: hidden; -->
+<!--     } -->
+<!--     center { -->
+<!--       visibility: hidden; -->
+<!--     } -->
+
+<!--   </style> -->
+
+<!--   <script src="https://www.goodreads.com/review/custom_widget/7226831.%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E?cover_position=left&cover_size=large&num_books=10&order=d&shelf=read&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=0&show_title=1&sort=date_added&widget_bg_color=#fffff8&widget_bg_transparent=&widget_border_width=10&widget_id=1639125651&widget_text_color=#111111&widget_title_size=medium&widget_width=small" type="text/javascript" charset="utf-8"></script> -->
+<!-- """ -->
+
+<!-- escape(re.sub(r'\n| {2,}', '', s)) -->
+  <iframe width="853" height="450" 
+
+      srcdoc="&lt;style&gt;div {font-family: et-book,&quot;Noto Serif SC&quot;,Palatino,&quot;Palatino Linotype&quot;,&quot;Palatino LT STD&quot;,&quot;Book Antiqua&quot;,Georgia,serif,&quot;Noto Emoji&quot;;color: #111;font-size: 1.2rem;}.gr_custom_tags_ {visibility: hidden;}center {visibility: hidden;}&lt;/style&gt; &lt;script src=&quot;https://www.goodreads.com/review/custom_widget/7226831.%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E?cover_position=left&amp;cover_size=large&amp;num_books=10&amp;order=d&amp;shelf=read&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=0&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=#fffff8&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1639125651&amp;widget_text_color=#111111&amp;widget_title_size=small&amp;widget_width=small&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;" frameborder="1" allowfullscreen></iframe>
 </div>
   <!-- <iframe width="600" height="870" srcdoc="&lt;script src=&quot;https://www.goodreads.com/review/custom_widget/7226831.%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E?cover_position=left&amp;cover_size=small&amp;num_books=25&amp;order=d&amp;shelf=read&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=1&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=FFFFFF&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1639125651&amp;widget_text_color=000000&amp;widget_title_size=medium&amp;widget_width=medium&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;"></iframe> -->
-<h2>Posts</h2>
+<h2>
+<style>
+h2 {
+	margin-top: 0.8rem;
+}
+</style>
+Posts</h2>
 
 <div class="homepage-content">
 <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
