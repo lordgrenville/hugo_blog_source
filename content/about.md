@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 hasMath: false
-_build:
+build:
   list: never
 ---
 
