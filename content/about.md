@@ -1,7 +1,8 @@
 ---
 title: "About Me"
 hasMath: false
-date: 2021-02-24
+_build:
+  list: never
 ---
 
 Sometimes I think thoughts.

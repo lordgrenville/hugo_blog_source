@@ -29,12 +29,6 @@
 <!-- {{ end }} -->
 <!-- </section> -->
 
-<style>
-.reading {
-	margin-bottom: 0.1rem;
-	font-size: 2.2rem;
-}
-</style>
 <h3 class="reading">
 <b>Current reading...</b></h3>
 <br>
@@ -70,12 +64,8 @@
       srcdoc="&lt;style&gt;div {font-family: et-book,&quot;Noto Serif SC&quot;,Palatino,&quot;Palatino Linotype&quot;,&quot;Palatino LT STD&quot;,&quot;Book Antiqua&quot;,Georgia,serif,&quot;Noto Emoji&quot;;color: #111;font-size: 1.2rem;}.gr_custom_tags_ {visibility: hidden;}center {visibility: hidden;}&lt;/style&gt; &lt;script src=&quot;https://www.goodreads.com/review/custom_widget/7226831.%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E?cover_position=left&amp;cover_size=large&amp;num_books=10&amp;order=d&amp;shelf=read&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=0&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=#fffff8&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1639125651&amp;widget_text_color=#111111&amp;widget_title_size=small&amp;widget_width=small&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;" frameborder="1" allowfullscreen></iframe>
 </div>
   <!-- <iframe width="600" height="870" srcdoc="&lt;script src=&quot;https://www.goodreads.com/review/custom_widget/7226831.%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E?cover_position=left&amp;cover_size=small&amp;num_books=25&amp;order=d&amp;shelf=read&amp;show_author=1&amp;show_cover=1&amp;show_rating=1&amp;show_review=1&amp;show_tags=1&amp;show_title=1&amp;sort=date_added&amp;widget_bg_color=FFFFFF&amp;widget_bg_transparent=&amp;widget_border_width=1&amp;widget_id=1639125651&amp;widget_text_color=000000&amp;widget_title_size=medium&amp;widget_width=medium&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;"></iframe> -->
-<h2>
-<style>
-h2 {
-	margin-top: 0.8rem;
-}
-</style>
+<h2 class="posts">
+
 Posts</h2>
 
 <div class="homepage-content">
@@ -87,8 +77,8 @@ Posts</h2>
     <h3>
         <a href="{{.Permalink}}">{{.Title}}</a>
     </h3>
-    <subtitle>
-        {{.Date.Format "2006-01-02"}}
+    <subtitle class="date">
+        {{.Date.Format "January 2, 2006"}}
     </subtitle><br>
 {{ end }}
 {{ partial "footer.html" . }}

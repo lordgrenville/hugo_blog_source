@@ -52,3 +52,16 @@ subtitle {
  display:block;
  line-height:1
 }
+
+.date {
+ font-size:1.5rem;
+}
+
+.reading {
+	margin-bottom: 0.1rem;
+	font-size: 2.2rem;
+}
+
+.posts {
+	margin-top: 0.8rem;
+}
