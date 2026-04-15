@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 hasMath: false
+hidedate: true
 build:
   list: never
 ---
