@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" />
 </noscript>
 
-{{ $htoptions := (dict "targetPath" "/css/hugo-tufte.min.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $htoptions := dict "transpiler" "dartsass" "targetPath" "css/hugo-tufte.css" "style" "expanded" "sourceMap" "inline" }}
 {{ $htstyle := resources.Get "scss/hugo-tufte.scss"| resources.ExecuteAsTemplate "main.scss" .  | css.Sass $htoptions }}
 <link rel="stylesheet" href="{{ $htstyle.Permalink | relURL }}">
 

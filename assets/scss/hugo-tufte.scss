@@ -1,22 +1,22 @@
 // Tufte
-@import "tufte";
+@use "tufte";
 
 // Additional styles for Hugo
-@import "general";
+@use "general";
 
 /// Pages
-@import "pages/footer";
+@use "pages/footer";
 
 /// Components
-@import "components/code-highlight";
-@import "components/toc";
-@import "components/nav";
-@import "components/brand";
-@import "components/meta";
+@use "components/code-highlight";
+@use "components/toc";
+@use "components/nav";
+@use "components/brand";
+@use "components/meta";
 
 // Look at this https://gohugo.io/hugo-pipes/resource-from-template/#readout
 {{ if and (isset .Site.Params "codeblocksdark") .Site.Params.codeBlocksDark  }}
-@import "syntax/highlight-dark.scss"
+@use "syntax/highlight-dark.scss"
 {{ else }}
-@import "syntax/highlight-light.scss"
+@use "syntax/highlight-light.scss"
 {{ end }}
