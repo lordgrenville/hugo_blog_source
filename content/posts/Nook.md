@@ -14,7 +14,7 @@ Since pretty early on I wanted to try root it, because:
 
 However, I never got around to it. It required some very simple equipment (an SD card reader??) and I was a bit nervous about the warnings that I could brick my device.
 
-Anyway, it's 2026, it's old enough that I am less scared, my laptop (Lenovo T490s) has a built-in SD card reader (in a super-annoying place, at the back, such that you need to almost close the screen in order to get the card in and out, but still), you can also buy a new 32GB card for under $10. Plus there is AI - a mixed bag, it always has advice which is sometimes right and sometimes wrong, probably on net a help but also just good as moral support when I want to give up.
+Anyway, it's 2026, it's old enough that I am less scared, my laptop (Lenovo T490s) has a built-in SD card reader (in a super-annoying place, at the back, such that you need to almost close the screen in order to get the card in and out, but still), you can also buy a new 32GB card for ~$10. Plus there is AI - a mixed bag, it always has advice which is sometimes right and sometimes wrong, probably on net a help but also just good as moral support when I want to give up.
 
 I finally did it yesterday, it was pretty straightforward but there were a couple of things I learned on the way that I wanted to record here:
 
