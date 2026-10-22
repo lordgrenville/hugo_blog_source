@@ -1,5 +1,5 @@
-baseURL = 'http://lordgrenville.github.io/'
-languageCode = 'en-za'
+baseURL = 'https://lordgrenville.github.io/'
+locale = 'en-za'
 title = 'Frivolous Musings'
 theme = "tufte"
 
